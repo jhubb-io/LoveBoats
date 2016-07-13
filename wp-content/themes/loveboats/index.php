@@ -13,7 +13,7 @@
             <div class="step4"><a href="javascript:void(0);"><b><?php _e( 'MESSAGE', 'loveboats' ); ?></b></a></div>
             <div class="step5"><a href="javascript:void(0);"><b><?php _e( 'PREVIEW', 'loveboats' ); ?></b></a></div>
             <div class="step6"><a href="javascript:void(0);"><b><?php _e( 'SUBMIT', 'loveboats' ); ?></b></a></div>
-            <div><a href="<?php echo get_permalink( 220 ); ?>"><b><?php _e( 'GALLERY', 'loveboats' ); ?></b></a></div>
+            <div><a href="<?php echo get_permalink( 19 ); ?>"><b><?php _e( 'GALLERY', 'loveboats' ); ?></b></a></div>
         </menu>
 
 
@@ -363,6 +363,9 @@
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.min.js"></script>    
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/html2canvas.js"></script>
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/plg.js"></script>
-                      
+            <form class="encodedimg" style="display: none;">
+                <input type="hidden" name="action" value="encoded_image" />
+                <input type="hidden" name="rotatedimage" class="rotatedimage" />
+            </form> 
                       
 <?php get_footer(); ?>

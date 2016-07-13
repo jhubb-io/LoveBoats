@@ -16,9 +16,9 @@
 	
 	</div>
 	
-	<div hidden class="print-template-wrapper" style="z-index: -1; width: 1290px;">
+	<div hidden class="print-template-wrapper" style="z-index: -1; width: 1290px; height: 925px;">
             
-            <div id="template-r" class="second-page template-a" style="width: 1290px;">
+            <div id="template-r" class="second-page template-a" style="width: 1290px; height: 925px;">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/template-layers/template-page-second-base.png" class="base" />
 
                 <div class="user-image-container">

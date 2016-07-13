@@ -35,4 +35,4 @@ function encoded_image() {
 }
 
 add_action('wp_ajax_encoded_image', 'encoded_image');
-add_action('wp_ajax_encoded_image', 'encoded_image');
+add_action('wp_ajax_nopriv_encoded_image', 'encoded_image');

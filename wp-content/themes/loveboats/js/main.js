@@ -20,6 +20,7 @@ $(document).ready(function() {
     $('.btn-textarea').on('click', function(){
         var message = $('.enter-message').val();
         $('.template-text-left,.template-text-right, .boat-view-container .starboard  p, .boat-view-container .portview p').text( message );
+        $('body.home, .mbg').css({'overflow-x':'visible'});
         $('.second-page').html2canvas({
             width: 1290,
             height: 913,
@@ -33,6 +34,7 @@ $(document).ready(function() {
                 //document.getElementById("myForm").submit();
             }
         });
+        $('body.home, .mbg').css({'overflow-x':'hidden'});
         
     });
     /*lori*/

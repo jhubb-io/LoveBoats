@@ -167,6 +167,10 @@ menu div:after{
     position: absolute;
     right: -5px;
     top: 0;
+	-moz-transform: rotateZ(45deg);
+	-ms-transform: rotateZ(45deg);
+	-webkit-transform:rotateZ(45deg) ;
+	-o-transform: rotateZ(45deg);
     transform: rotateZ(45deg);
     width: 34px;
     z-index: 3;
@@ -412,39 +416,6 @@ footer a img{
 	height:200px;
 	margin:50px auto 0;
 }
-/*
-.country .flag-holder .flag:before{
-	background-color: #36954d;
-    content: "";
-    display: block;
-    height: 70px;
-    left: -69px;
-    position: absolute;
-    top: 69px;
-    width: 70px;
-}
-
-.country .flag-holder .flag{
-	/*background-color: #fff;
-    height: 210px;
-    position: relative;
-    top: 50px;
-    transform: rotate(-45deg);
-    transform-origin: left top 0;
-    width: 70px;
-}
-
-.country .flag-holder .flag:after{
-	background-color: #cd322f;
-    content: "";
-    display: block;
-    height: 70px;
-    right: -69px;
-    position: absolute;
-    top: 69px;
-    width: 70px;
-}
-*/
 .page-content.country  p.error{
 	position:absolute;
 	margin: 5px 35px;
@@ -587,6 +558,10 @@ button.btn-next:after{
     left: 0;
     position: absolute;
     top: 0;
+	-moz-transform: rotateZ(90deg);
+	-ms-transform: rotateZ(90deg);
+	-webkit-transform: rotateZ(90deg);
+	-o-transform: rotateZ(90deg);
     transform: rotateZ(90deg);
     width: 100%;
 }
@@ -596,23 +571,16 @@ button.btn-next:after{
     height: 100%;
     position: relative;
     top: 25%;
+	-moz-transform: ;
+	-ms-transform: ;
+	-webkit-transform: ;
+	-o-transform: ;
     transform: rotate(-45deg);
     transform-origin: left top 0;
     width: 36%;
 	z-index:2;
 }
-/*
-.colorx-holder div:after{
-	background-color: #fff;
-    content: "";
-    display: block;
-    height: 36%;
-    position: absolute;
-    right: -90%;
-    top: 33%;
-    width: 100%;
-}
-*/
+
 .colorx-holder div.pink,.colorx-holder div.pink:before,.colorx-holder div.pink:after{background-color:#f0659e;}
 .colorx-holder div.red,.colorx-holder div.red:before,.colorx-holder div.red:after{background-color:#ee2e2b;}
 .colorx-holder div.green,.colorx-holder div.green:before,.colorx-holder div.green:after{background-color:#009649;}
@@ -938,6 +906,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     right: 8.5%;
+	-moz-transform: rotate(36.5deg);
+	-ms-transform: rotate(36.5deg);
+	-webkit-transform: rotate(36.5deg);
+	-o-transform: rotate(36.5deg);
     transform: rotate(36.5deg);
     width: 20%;
 	z-index: 2;
@@ -947,6 +919,10 @@ input.template-variant{
     position: absolute;
     right: -16%;
     top: 5.6%;
+	-moz-transform: rotate(-36.5deg);
+	-ms-transform: rotate(-36.5deg);
+	-webkit-transform: rotate(-36.5deg);
+	-o-transform: rotate(-36.5deg);
     transform: rotate(-36.5deg);
     width: 39%;
     z-index: 6;
@@ -995,6 +971,10 @@ input.template-variant{
     position: absolute;
     right: 24.5%;
     top: 10%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 20%;
     z-index: 2;
@@ -1004,6 +984,10 @@ input.template-variant{
     left: 2%;
     position: absolute;
     top: -24.5%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 80.5%;
     z-index: 6;
@@ -1038,6 +1022,10 @@ input.template-variant{
     left: 7.3%;
 	overflow: hidden;
     position: absolute;
+	-moz-transform: rotate(-36.5deg);
+	-ms-transform: rotate(-36.5deg);
+	-webkit-transform: rotate(-36.5deg);
+	-o-transform: rotate(-36.5deg);
     transform: rotate(-36.5deg);
     width: 20%;
     z-index: 2;
@@ -1048,6 +1036,10 @@ input.template-variant{
     left: -15.2%;
     position: absolute;
     top: 1.6%;
+	-moz-transform: rotate(36.5deg);
+	-ms-transform: rotate(36.5deg);
+	-webkit-transform: rotate(36.5deg);
+	-o-transform: rotate(36.5deg);
     transform: rotate(36.5deg);
     width: 40%;
     z-index: 6;
@@ -1060,6 +1052,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: 8%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 20%;
     z-index: 2;
@@ -1070,6 +1066,10 @@ input.template-variant{
     left: 32.1%;
     position: absolute;
     top: -10.3%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 40%;
     z-index: 6;
@@ -1097,6 +1097,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: 6%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 30%;
     z-index: 6;
@@ -1110,6 +1114,10 @@ input.template-variant{
     left: 54.9%;
     position: absolute;
     top: -8%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 27%;
     z-index: 6;
@@ -1121,9 +1129,12 @@ input.template-variant{
 	display: block;
     height: 100%;
     left: 0;
-
     position: absolute;
     top: 4.5%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 30%;
     z-index: 2;
@@ -1137,6 +1148,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: -46%;
+	-moz-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
     transform: rotate(-40deg);
     width: 100%;
 	
@@ -1148,6 +1163,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: 3.5%;
+	-moz-transform: rotate(36.5deg);
+	-ms-transform: rotate(36.5deg);
+	-webkit-transform: rotate(36.5deg);
+	-o-transform: rotate(36.5deg);
     transform: rotate(36.5deg);
     width: 77%;
     z-index: 7;
@@ -1176,6 +1195,10 @@ input.template-variant{
     position: absolute;
     right: 2.5%;
     top: 4%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 20%;
     z-index: 2;
@@ -1185,6 +1208,10 @@ input.template-variant{
     left: -0.1%;
     position: absolute;
     top: -7.5%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 42.5%;
     z-index: 6;
@@ -1197,6 +1224,10 @@ input.template-variant{
     position: absolute;
     right: 5%;
     top: -33%;
+	-moz-transform: rotate(36deg);
+	-ms-transform: rotate(36deg);
+	-webkit-transform: rotate(36deg);
+	-o-transform: rotate(36deg);
     transform: rotate(36deg);
     width: 20%;
     z-index: 2;
@@ -1206,6 +1237,10 @@ input.template-variant{
     position: absolute;
     right: -15%;
     top: 15.5%;
+	-moz-transform: rotate(-37deg);
+	-ms-transform: rotate(-37deg);
+	-webkit-transform: rotate(-37deg);
+	-o-transform: rotate(-37deg);
     transform: rotate(-37deg);
     width: 39.5%;
     z-index: 6;
@@ -1223,6 +1258,10 @@ input.template-variant{
     position: absolute;
 	overflow:hidden;
     top: 8.7%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 30%;
     z-index: 6;
@@ -1233,6 +1272,10 @@ input.template-variant{
     left: 43.3%;
     position: absolute;
     top: -8.6%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 25.5%;
     z-index: 6;
@@ -1245,6 +1288,10 @@ input.template-variant{
     position: absolute;
     right: 0;
     top: 4.7%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 30%;
     z-index: 6;
@@ -1257,6 +1304,10 @@ input.template-variant{
     position: absolute;
     right: 22%;
     top: -46%;
+	-moz-transform: rotate(40.5deg);
+	-ms-transform: rotate(40.5deg);
+	-webkit-transform: rotate(40.5deg);
+	-o-transform: rotate(40.5deg);
     transform: rotate(40.5deg);
     width: 100%;
     z-index: 6;
@@ -1268,6 +1319,10 @@ input.template-variant{
     left: 36.5%;
     position: absolute;
     top: 2.5%;
+	-moz-transform: rotate(-37deg);
+	-ms-transform: rotate(-37deg);
+	-webkit-transform: rotate(-37deg);
+	-o-transform: rotate(-37deg);
     transform: rotate(-37deg);
     width: 77.5%;
     z-index: 6;
@@ -1288,6 +1343,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: 4.5%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 30%;
     z-index: 2;
@@ -1310,6 +1369,10 @@ input.template-variant{
     position: absolute;
     right: -1.1%;
     top: -8.2%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 27%;
     z-index: 7;
@@ -1366,8 +1429,13 @@ input.template-variant{
     height: 100%;
     overflow: hidden;
     position: absolute;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 100%;
+	z-index:2;
 }
 
 
@@ -1382,6 +1450,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: -2%;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 27.5%;
     z-index: 1;
@@ -1414,6 +1486,10 @@ input.template-variant{
     height: 100%;
     overflow: hidden;
     position: absolute;
+	-moz-transform: rotate(3.5deg);
+	-ms-transform: rotate(3.5deg);
+	-webkit-transform: rotate(3.5deg);
+	-o-transform: rotate(3.5deg);
     transform: rotate(3.5deg);
     width: 100%;
 }
@@ -1426,6 +1502,10 @@ input.template-variant{
     overflow: hidden;
     position: absolute;
     top: -2%;
+	-moz-transform: rotate(-3.5deg);
+	-ms-transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-o-transform: rotate(-3.5deg);
     transform: rotate(-3.5deg);
     width: 27.5%;
     z-index: 1;
@@ -1464,6 +1544,10 @@ input.template-variant{
 	bottom: 24.2%;
     height: 27%;
     left: 24.5%;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 22%;
 }
@@ -1471,6 +1555,10 @@ input.template-variant{
 	bottom: 27.5%;
 	height:26%;
     left: 61.8%;
+	-moz-transform: rotate(-48deg);
+	-ms-transform: rotate(-48deg);
+	-webkit-transform: rotate(-48deg);
+	-o-transform: rotate(-48deg);
     transform: rotate(-48deg);
     width: 21%;
 }
@@ -1481,6 +1569,10 @@ input.template-variant{
 	bottom: 24%;
     height: 32%;
     left: 28.3%;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 21%;
 }
@@ -1488,6 +1580,10 @@ input.template-variant{
 	bottom: 28.5%;
     height: 29%;
     left: 54.5%;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 20%;
 }
@@ -1498,6 +1594,10 @@ input.template-variant{
 	bottom: 29%;
     height: 28%;
     left: 31.1%;
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
     transform: rotate(-45deg);
     width: 21%;
 }
@@ -1505,18 +1605,16 @@ input.template-variant{
 	bottom: 27%;
     height: 30%;
     left: 28%;
+	-moz-transform: rotate(-48deg);
+	-ms-transform: rotate(-48deg);
+	-webkit-transform: rotate(-48deg);
+	-o-transform: rotate(-48deg);
     transform: rotate(-48deg);
     width: 20%;
 }
 /* text positioning template C - ends here */
 
-
-
-
 /*********************************************/
-
-
-
 .boat-wrapper .boat-body-center{
     border-bottom: 6.9vw solid #fff;
     border-left: 10vw solid transparent;
@@ -1526,7 +1624,6 @@ input.template-variant{
     display: block;
     height: 0;
     left: 17%;
-  
     overflow: hidden;
     position: absolute;
     width: 0;
@@ -1540,9 +1637,12 @@ input.template-variant{
     display: block;
     height: 0;
     left: 12%;
-   
     overflow: hidden;
     position: absolute;
+	-moz-transform: rotateZ(-86deg);
+	-ms-transform: rotateZ(-86deg);
+	-webkit-transform: rotateZ(-86deg);
+	-o-transform: rotateZ(-86deg);
     transform: rotateZ(-86deg);
     width: 0;
 }
@@ -1556,9 +1656,12 @@ input.template-variant{
     display: block;
     height: 0;
     right: 12%;
-    
     overflow: hidden;
     position: absolute;
+	-moz-transform: rotateZ(86deg);
+	-ms-transform: rotateZ(86deg);
+	-webkit-transform: rotateZ(86deg);
+	-o-transform: rotateZ(86deg);
     transform: rotateZ(86deg);
     width: 0;
 }
@@ -1620,6 +1723,7 @@ input.template-variant{
     right: 0;
     top: -42%;
     width: 100%;
+	
 }
 
 /* step 6 styles ends here */
@@ -1647,12 +1751,9 @@ input.template-variant{
 }
 .boat-view-container.small .boat-wrapper{
 	max-width:230px;
-	
 }
 
-.boat-view-container.small:first-child{
-
-}
+.boat-view-container.small:first-child{}
 
 .submit h2{
 	color: #fff;
@@ -1732,7 +1833,6 @@ input.template-variant{
 	line-height:40px;
 }
 
-
 .thank-you .button-holder {
 	display: table;
     float: none;
@@ -1767,7 +1867,6 @@ input.template-variant{
     font-size: 20px;
     margin: 0 auto;
     padding: 14px 35px;
-	
 	background-color: #dc8232;
     border: 0 none;
     color: #fff;
@@ -1857,16 +1956,14 @@ input.template-variant{
 }
 
 .slide-element h3{
-		color: #fff;
-		font-size: 15px;
-		font-weight: 700;
-		margin: 50px 0 0;
-		text-transform: uppercase;
-		
-
-		padding:21px 26px 0px 38px;
-		position:relative;
-	}
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 50px 0 0;
+	text-transform: uppercase;
+	padding:21px 26px 0px 38px;
+	position:relative;
+}
 .slide-element h3 b {
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -1938,110 +2035,112 @@ input.template-variant{
 	width:250px;
 } 
 
-	* {
-      box-sizing: border-box;
-    }
+* {
+  box-sizing: border-box;
+}
 
-   .gallery .slider {
-        
-        margin: 50px auto;
-    }
+.gallery .slider {
+	
+	margin: 50px auto;
+}
 
-   .gallery .slick-slide {
-		margin: 0px 0px;
-		padding:0px 0px;
+.gallery .slick-slide {
+	margin: 0px 0px;
+	padding:0px 0px;
 
-		width:290px !important;
-		max-width:290px;
-		background-color: rgba(0, 0, 0, 0.81);
-		box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.81);
-    }
+	width:290px !important;
+	max-width:290px;
+	background-color: rgba(0, 0, 0, 0.81);
+	box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.81);
+}
 	
-	
-	
-	.gallery .slick-slide.slick-active h3{
-		padding:20px 26px 0px 38px;
-	}
-	
-	.gallery .slick-slide h3 span{
-		clear: both;
-		display: block;
-		font-weight: 300;
-		margin: 0;
-	}
-	
-	.gallery .slick-slide h3 b{
-		display: block;
-		height: 12px;
-		left: 22px;
-		position: absolute;
-		top: 23px;
-		width: 12px;
-		background-size:100% auto;
-		background-repeat:no-repeat;
-	}
-	
-	.gallery .slick-slide p{
-		font-size: 15px;
-		max-width: 100%;
-		padding: 0 22px;
-		padding-left:38px;
-	}
-	
-	.gallery .slick-slide .boat-wrapper p{
-		font-size: 0.175em;
-		padding: 0;
-	}
-	
-	.gallery .slick-slide h3.it b{
-		background-image:url("../images/flags/flag-it-small.png");
-	}
-	.gallery .slick-slide h3.gr b{
-		background-image:url("../images/flags/flag-gr-small.png");
-	}
-	.gallery .slick-slide h3.fr b{
-		background-image:url("../images/flags/flag-fr-small.png");
-	}
-	.gallery .slick-slide h3.nl b{
-		background-image:url("../images/flags/flag-nl-small.png");
-	}
+.gallery .slick-slide.slick-active h3{
+	padding:20px 26px 0px 38px;
+}
 
-    .slick-slide img {
-      width: 100%;
-    }
+.gallery .slick-slide h3 span{
+	clear: both;
+	display: block;
+	font-weight: 300;
+	margin: 0;
+}
 
-    .slick-prev:before,
-    .slick-next:before {
-        color: black;
-    }
+.gallery .slick-slide h3 b{
+	display: block;
+	height: 12px;
+	left: 22px;
+	position: absolute;
+	top: 23px;
+	width: 12px;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+}
+
+.gallery .slick-slide p{
+	font-size: 15px;
+	max-width: 100%;
+	padding: 0 22px;
+	padding-left:38px;
+}
+
+.gallery .slick-slide .boat-wrapper p{
+	font-size: 0.175em;
+	padding: 0;
+}
 	
-	.page-content.gallery .boat-wrapper .reflection-body{
-		display: block;
-		height: 45%;
-		overflow: hidden;
-		position: absolute;
-	}
+.gallery .slick-slide h3.it b{
+	background-image:url("../images/flags/flag-it-small.png");
+}
+.gallery .slick-slide h3.gr b{
+	background-image:url("../images/flags/flag-gr-small.png");
+}
+.gallery .slick-slide h3.fr b{
+	background-image:url("../images/flags/flag-fr-small.png");
+}
+.gallery .slick-slide h3.nl b{
+	background-image:url("../images/flags/flag-nl-small.png");
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+.page-content.gallery .boat-wrapper .reflection-body{
+	display: block;
+	height: 45%;
+	overflow: hidden;
+	position: absolute;
+}
+
+.page-content.gallery .boat-wrapper .reflection-body .reflection{
+	display: block;
+	margin: 0;
+	opacity: 0.3;
+	overflow: hidden;
+	-moz-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+	width: 100%;
+}
 	
-	.page-content.gallery .boat-wrapper .reflection-body .reflection{
-		display: block;
-		margin: 0;
-		opacity: 0.3;
-		overflow: hidden;
-		transform: rotateX(180deg);
-		width: 100%;
-	}
-	
-	.page-content.gallery .boat-wrapper .reflection-body::before {
-		background: rgba(0, 0, 0, 0) url("../images/boat-layers/boat-body-reflection-s.png") repeat-x scroll center bottom / 35% auto;
-		content: "";
-		display: block;
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 2;
-	}
+.page-content.gallery .boat-wrapper .reflection-body::before {
+	background: rgba(0, 0, 0, 0) url("../images/boat-layers/boat-body-reflection-s.png") repeat-x scroll center bottom / 35% auto;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
 	
 	
 	
@@ -2177,6 +2276,10 @@ input.template-variant{
 
 .slick-prev{
 	left:-30px;
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
 	transform:rotate(180deg);
 }
 .slick-next{
@@ -2370,6 +2473,7 @@ input.template-variant{
 		position: relative;
 		width: 100%;
 		z-index: 10;
+		font-size:13px;
 	}
 	menu div:first-child a b{
 		margin: 0 0 0 0px;
@@ -2377,9 +2481,6 @@ input.template-variant{
 	menu div:last-child{
 		
 	}
-	
-	
-	
 	
 	.boat-wrapper p{
 		font-size: 5.5px;
@@ -2453,6 +2554,10 @@ input.template-variant{
 		line-height: 26px;
 		right: 0;
 		top: 0;
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
 		transform: rotate(0deg);
 		width: 2px;
 	}
@@ -2461,6 +2566,7 @@ input.template-variant{
 		margin-left: 0px;
 		position: relative;
 		z-index: 10;
+		font-size:11px;
 	}
 	
 	
@@ -2489,6 +2595,10 @@ input.template-variant{
 		height: 104px;
 		right: -63px;
 		width: 180px;
+	}
+	
+	menu div a b{
+		font-size:10px;
 	}
 	
 	button.createaboat{
@@ -2677,10 +2787,6 @@ input.template-variant{
 		max-width:290px;
 	}
 	
-	
-	
-	
-	
 	.boat-wrapper p{
 		font-size: 3.1px;
 		line-height: 3.6px;
@@ -2717,16 +2823,15 @@ input.template-variant{
 	}
 	
 	menu div {
-		
-		
 		text-align: center;
-		
 	}
-
 
 	menu div a{
 		background-color:transparent;
 		color:#ccc;
+	}
+	menu div a b{
+		font-size:10px;
 	}
 	.content {
 		display: block;
@@ -2741,7 +2846,6 @@ input.template-variant{
 	}
 	
 	menu div:last-child {
-		
 		display: block;
 		padding: 0px 10px;
 		position: absolute;
@@ -2787,7 +2891,6 @@ input.template-variant{
 		color:#dc8232;
 		background-color:transparent;
 	}
-	
 	
 	.boat-wrapper p{
 		font-size: 3.1px;
@@ -2852,9 +2955,9 @@ input.template-variant{
     top: 0px;
 	left:0px;
     /*width: 842px;*/
-	height: 10px;
+	max-height: 10px;
     overflow: hidden;
-    width: 90px;
+    max-width: 90px;
     z-index: -1;
 
 }
@@ -2907,7 +3010,6 @@ input.template-variant{
 	left: -7.2%;
     position: absolute;
     top: 45.1%;
-/*    transform: rotate(90deg);*/
     width: 245px;
 	height:246px;
 	
@@ -2918,6 +3020,10 @@ input.template-variant{
 	left: 12.4%;
     position: absolute;
     top: 45.1%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 245px;
 	height:246px;
@@ -2928,7 +3034,6 @@ input.template-variant{
 	position: absolute;
     right: -7.2%;
     top: 47.8%;
-/*    transform: rotate(-90deg);*/
     width: 245px;
 	height:246px;
 }
@@ -2937,6 +3042,10 @@ input.template-variant{
 	position: absolute;
     right: 12.6%;
     top: 47.8%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 245px;
 	height:246px;
@@ -2948,7 +3057,6 @@ input.template-variant{
 	left: -7.2%;
     position: absolute;
     top: 49.1%;
-/*    transform: rotate(90deg);*/
     width: 245px;
 	height:246px;
 }
@@ -2957,6 +3065,10 @@ input.template-variant{
 	left: 12.4%;
     position: absolute;
     top: 49.1%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 245px;
 	height:246px;
@@ -2966,7 +3078,6 @@ input.template-variant{
 	position: absolute;
     right: -7.2%;
     top: 47.8%;
-/*    transform: rotate(-90deg);*/
     width: 245px;
 	height:246px;
 }
@@ -2975,6 +3086,10 @@ input.template-variant{
 	position: absolute;
     right: 12.6%;
     top: 47.8%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 245px;
 	height:246px;
@@ -2986,7 +3101,6 @@ input.template-variant{
 	left: -7.2%;
     position: absolute;
     top: 23.5%;
-/*    transform: rotate(90deg);*/
     width: 245px;
 	height:246px;
 }
@@ -2995,6 +3109,10 @@ input.template-variant{
 	left: 12.4%;
     position: absolute;
     top: 23.5%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 245px;
 	height:246px;
@@ -3004,7 +3122,6 @@ input.template-variant{
 	position: absolute;
     right: -7.2%;
     top: 52.3%;
-/*    transform: rotate(-90deg);*/
     width: 245px;
 	height:246px;
 }
@@ -3013,6 +3130,10 @@ input.template-variant{
 	position: absolute;
     right: 12.6%;
     top: 52.3%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 245px;
 	height:246px;
@@ -3037,60 +3158,100 @@ input.template-variant{
 .template-a .flag-container img.one{
 	left: 3.014%;
     top: 17.9%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.two{
 	left: 0.2%;
     top: 32.3%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.three{
 	left: 0.2%;
     top: 69.3%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.four{
 	left: 21.15%;
     top: 11.92%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.five{
 	left: 12.2%;
     top: 28.3%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 11.4%;
 }
 .template-a .flag-container img.six{
 	left: 26.5%;
     top: 39.8%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.seven{
 	left: 21.2%;
     top: 75.4%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.eight{
 	right: 15.6%;
     top: 10.7%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 11.4%;
 }
 .template-a .flag-container img.nine{
 	right: 1.5%;
     top: 12.4%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.9%;
 }
 .template-a .flag-container img.ten{
 	right: -1.2%;
     top: 39.9%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.9%;
 }
@@ -3098,6 +3259,10 @@ input.template-variant{
 .template-a .flag-container img.eleven{
 	right: 22.58%;
     top: 41.89%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.9%;
 }
@@ -3105,6 +3270,10 @@ input.template-variant{
 .template-a .flag-container img.twelve{
 	right: 17.1%;
     top: 90.39%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.9%;
 }
@@ -3115,6 +3284,10 @@ input.template-variant{
 .template-b .flag-container img.one{
 	left: 15.7%;
     top: 0.5%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.4%;
 	
@@ -3123,54 +3296,90 @@ input.template-variant{
 .template-b .flag-container img.two{
 	left: 5.9%;
     top: 6.2%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
 .template-b .flag-container img.three{
 	left: 1.6%;
     top: 16.1%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
 .template-b .flag-container img.four{
-	eft: 14.25%;
+	left: 14.25%;
     top: 14.1%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
 .template-b .flag-container img.five{
 	left: 0.3%;
     top: 42.1%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.6%;
 }
 .template-b .flag-container img.six{
 	left: 18.4%;
     top: 43.9%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.8%;
 }
 .template-b .flag-container img.seven{
 	left: 10.1%;
     top: 72%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 16.9%;
 }
 .template-b .flag-container img.eight{
 	right: 15.7%;
     top: 0.3%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.7%;
 }
 .template-b .flag-container img.nine{
 	right: 0.2%;
     top: 14.2%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.7%;
 }
 .template-b .flag-container img.ten{
 	right: 0.2%;
     top: 38.4%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.7%;
 }
@@ -3182,6 +3391,10 @@ input.template-variant{
 .template-b .flag-container img.eleven{
 	right: 38.3%;
     top: 11.1%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 81%;
 }
@@ -3189,7 +3402,11 @@ input.template-variant{
 .template-b .flag-container img.twelve{
 	right: 17%;
     top: 89.5%;
-    transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
     width: 5.9%;
 	
 	display:none;
@@ -3201,30 +3418,50 @@ input.template-variant{
 .template-c .flag-container img.one{
 	left: 21.3%;
     top: 12.3%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.6%;
 }
 .template-c .flag-container img.two{
 	left: 24%;
     top: 47.9%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.7%;
 }
 .template-c .flag-container img.three{
 	left: 4.4%;
     top: 67.7%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.6%;
 }
 .template-c .flag-container img.four{
 	left: 14.2%;
     top: 69.7%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.6%;
 }
 .template-c .flag-container img.five{
 	left: 0.2%;
     top: 77.7%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.6%;
 }
@@ -3234,24 +3471,40 @@ input.template-variant{
 .template-c .flag-container img.seven{
 	display: none;
     top: 75.4%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     width: 5.9%;
 }
 .template-c .flag-container img.eight{
 	right: 3.2%;
     top: 2.7%;
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
 .template-c .flag-container img.nine{
 	right: 14.5%;
     top: 30.3%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
 .template-c .flag-container img.ten{
 	right: 0.4%;
     top: 50.1%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
@@ -3259,6 +3512,10 @@ input.template-variant{
 .template-c .flag-container img.eleven{
 	right: 11.6%;
     top: 73.7%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 16.9%;
 }
@@ -3266,6 +3523,10 @@ input.template-variant{
 .template-c .flag-container img.twelve{
 	right: 4.5%;
     top: 91.7%;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
     transform: rotate(90deg);
     width: 5.6%;
 }
@@ -3302,16 +3563,24 @@ input.template-variant{
 	height: 6.5%;
     left: 16.5%;
     line-height: 1.2em;
-    max-width: 14%;
+    width: 14%;
     top: 22%;
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
 .template-a .text-container p.template-text-right{
 	height: 6.5%;
-    max-width: 14%;
+    width: 14%;
 	line-height: 1.2em;
     right: 16.5%;
     top: 28.7%;
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 /* print text template A - ends here */
@@ -3321,16 +3590,24 @@ input.template-variant{
     height: 6.5%;
     left: 15.5%;
     line-height: 1.3em;
-    max-width: 14%;
+    width: 14%;
     top: 32.5%;
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
 .template-b .text-container p.template-text-right{
     height: 6.5%;
     line-height: 1.2em;
-    max-width: 14%;
+    width: 14%;
     right: 15.2%;
     top: 35.7%;
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 /* print text template B - ends here */
@@ -3340,16 +3617,24 @@ input.template-variant{
     height: 6.5%;
     left: 16%;
     line-height: 1.2em;
-    max-width: 14%;
+    width: 14%;
     top: 57.5%;
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
 .template-c .text-container p.template-text-right{
 	height: 6.5%;
     line-height: 1.2em;
-    max-width: 14%;
+    width: 14%;
     right: 16.5%;
     top: 36.5%;
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 /* print text template C - ends here */
@@ -3372,7 +3657,6 @@ input.template-variant{
     width: 80%;
 	margin-left:10%;
     z-index: 2;
-
 }
 
 .boat-view-container .boat-wrapper.reflection{
@@ -3380,6 +3664,10 @@ input.template-variant{
     margin: 0;
     opacity: 0.3;
     overflow: hidden;
+	-moz-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+	-webkit-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 
