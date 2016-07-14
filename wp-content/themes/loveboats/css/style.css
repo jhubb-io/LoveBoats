@@ -7,7 +7,7 @@ body {
 	padding:0px;
 	background-color:rgba(0,0,0,0.5);
 	
-	/*overflow: hidden;*/
+	overflow: hidden;
 	overflow-x: hidden;
 }
 
@@ -2950,14 +2950,14 @@ input.template-variant{
 	background-color: #fff;
     display: block;
     margin: 0 auto;
-   /max-width: 90px;
+   
     position: absolute;
     top: 0px;
 	left:0px;
     /*width: 842px;*/
-	max-height: 10px;
+	
     overflow: hidden;
-    max-width: 90px;
+    
     z-index: -1;
 
 }

@@ -362,10 +362,12 @@
             
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/modernizr.min.js"></script>    
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/html2canvas.js"></script>
+            <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/base64js.min.js"></script>
+            <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/canvas2image.js"></script>
             <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/plg.js"></script>
             <form class="encodedimg" style="display: none;">
                 <input type="hidden" name="action" value="encoded_image" />
                 <input type="hidden" name="rotatedimage" class="rotatedimage" />
-            </form> 
+            </form>
                       
 <?php get_footer(); ?>

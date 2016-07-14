@@ -23,19 +23,24 @@ $(document).ready(function() {
         $('body.home, .mbg').css({'overflow-x':'visible'});
         $('.second-page').html2canvas({
             width: 1290,
-            height: 913,
+            height: 940,
             padding: 0,
             margin: 0,
             onrendered: function (canvas) {
+                theCanvas = canvas;
+                document.body.appendChild(canvas);
+
+                // Convert and download as image 
+                //Canvas2Image.saveAsPNG(canvas); 
+                //$("#img-out").append(canvas);
                 //Set hidden field's value to image data (base-64 string)
-                $('#img_val').val(canvas.toDataURL("image/jpg"));
+                $('#img_val').val(canvas.toDataURL("image/png"));
                 
                 //Submit the form manually
                 //document.getElementById("myForm").submit();
             }
         });
         $('body.home, .mbg').css({'overflow-x':'hidden'});
-        
     });
     /*lori*/
 	$('header .logo').on('click', function(){
@@ -361,7 +366,7 @@ function readURL(input) {
             var image = document.createElement('img');
             image.addEventListener('load', function() {
                 $('p.error').remove();
-                if ( image.width > 400 ) {
+                if ( image.width > 800 ) {
                     var p   = $('<p />');
                     p.attr( 'class', 'error' );
                     p.text( 'Please select a image with a smaller widh. Max. width must be 400 pixels' );
