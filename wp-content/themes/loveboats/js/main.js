@@ -369,7 +369,7 @@ function readURL(input) {
                 if ( image.width > 800 ) {
                     var p   = $('<p />');
                     p.attr( 'class', 'error' );
-                    p.text( 'Please select a image with a smaller widh. Max. width must be 400 pixels' );
+                    p.text( 'Please select a image with a smaller widh. Max. width must be 800 pixels' );
                     $('.chose-file-text').append( p );
                     return false;
                 } else {
