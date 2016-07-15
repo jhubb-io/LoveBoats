@@ -21,10 +21,15 @@ function upload_love_form() {
     if ( !$_FILES ) {
         echo response_json( __( 'Please select an image from your computer', 'loveboats' ), 'error', 'chose-file-text', 'step4' ); wp_die();
     }
+//    
+//    echo '<pre>';
+//    print_r( $_FILES );
+//    echo '</pre>';
+//    exit;
 
-    if ( $_FILES['upload']['type'] !== 'image/jpeg' && $_FILES['upload']['type'] !== 'image/png' ) {
-        echo response_json( __( 'Invalid image type. Accepted files are: jpeg or png', 'loveboats' ), 'error', 'chose-file-text', 'step4' ); wp_die();
-    }
+//    if ( $_FILES['upload']['type'] !== 'image/jpg' && $_FILES['upload']['type'] !== 'image/png' ) {
+//        echo response_json( __( 'Invalid image type. Accepted files are: jpeg or png', 'loveboats' ), 'error', 'chose-file-text', 'step4' ); wp_die();
+//    }
 
     if ( $_FILES['upload']['size'] > 2097152 ) { //2mb
         echo response_json( __( 'Please upload a smaller picture. Max. image size can be 2MB', 'loveboats' ), 'error', 'chose-file-text', 'step4' ); wp_die();
@@ -127,7 +132,7 @@ function upload_love_form() {
     wp_mail( $mail, 'Your Loveboat is ready!', $mailBody, $headers, $attachments ); //to user
     $mailBodyNotify = ' <a href="' . get_admin_url() . '/post.php?post=' . $boatID . '&action=edit">Click here too aprove/decline this boat</a>' ;
     
-    wp_mail( $tempmail, 'New boat awaiting approval!', $mailBodyNotify, $headers, $attachments ); //to admin
+    //wp_mail( $tempmail, 'New boat awaiting approval!', $mailBodyNotify, $headers, $attachments ); //to admin
     remove_filter( 'wp_mail_content_type', 'set_content_type' );
     echo response_json( __( 'Uploaded with success', 'loveboats' ), 'success', 'output1', 'step8', $finalPDFURI ); 
     wp_die();

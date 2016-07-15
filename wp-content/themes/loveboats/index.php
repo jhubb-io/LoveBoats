@@ -146,7 +146,7 @@
                                         </div>
 
                                         <div class="upload">
-                                            <input type="file" name="upload" class="file-selector"/>
+                                            <input type="file" name="upload" class="file-selector" id="file-selector"/>
                                         </div>
                                     </div>
 

@@ -366,32 +366,38 @@ function readURL(input) {
             var image = document.createElement('img');
             image.addEventListener('load', function() {
                 $('p.error').remove();
-                if ( image.width > 800 ) {
-                    var p   = $('<p />');
-                    p.attr( 'class', 'error' );
-                    p.text( 'Please select a image with a smaller widh. Max. width must be 800 pixels' );
-                    $('.chose-file-text').append( p );
-                    return false;
-                } else {
+               
+                    //var input = document.getElementById('file-selector')[0];
+               
+                    resizeImageToSpecificWidth(300, input);
+                    
                     
                     var encodedImg = e.target.result;
                     
                     
-                    $('.chose-file>.image-holder>img').attr('src', e.target.result);
-                    $('.boat-view-container .starboard .user-image>img,.boat-view-container .portview .user-image>img').attr('src', e.target.result);
-                    $('.print-template-wrapper img.user-image-gen').attr('src', e.target.result);
-                                        
-                    $('.rotatedimage').attr('value', e.target.result); //hidden form
+//                    $('.chose-file>.image-holder>img').attr('src', e.target.result);
+//                    $('.boat-view-container .starboard .user-image>img,.boat-view-container .portview .user-image>img').attr('src', e.target.result);
+//                    $('.print-template-wrapper img.user-image-gen').attr('src', e.target.result);
+//                                        
+//                    $('.rotatedimage').attr('value', e.target.result); //hidden form
                     
                     
-                    var ajaxdata = $(".encodedimg").serialize();
-                    $.post(obj.ajaxurl, ajaxdata, function (res) {
-                        var obj = $.parseJSON( res );
-                        $('.user-image-first').attr('src', obj.user_image_first);
-                        $('.user-image-third').attr('src', obj.user_image_third)
-                    });
                     
-                }
+                    $('.spinner-wrap').show();
+                    setTimeout(function(){ 
+                        
+                        var ajaxdata = $(".encodedimg").serialize();
+                        $.post(obj.ajaxurl, ajaxdata, function (res) {
+                            var obj = $.parseJSON( res );
+                            $('.user-image-first').attr('src', obj.user_image_first);
+                            $('.user-image-third').attr('src', obj.user_image_third)
+                        });
+                        $('.spinner-wrap').hide();
+                    }, 3000);
+                    
+                    
+                    
+                
             });
             image.src = e.target.result;
         }
@@ -405,4 +411,40 @@ function updateCountdown() {
         $('.countdown').text(remaining + ' characters remaining.');
     }
     
+}
+
+
+function resizeImageToSpecificWidth(width, input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(event) {
+      var img = new Image();
+      img.onload = function() {
+        if (img.width > width) {
+          var oc = document.createElement('canvas'), octx = oc.getContext('2d');
+          oc.width = img.width;
+          oc.height = img.height;
+          octx.drawImage(img, 0, 0);
+          while (oc.width * 0.5 > width) {
+            oc.width *= 0.5;
+            oc.height *= 0.5;
+            octx.drawImage(oc, 0, 0, oc.width, oc.height);
+          }
+          oc.width = width;
+          oc.height = oc.width * img.height / img.width;
+          octx.drawImage(img, 0, 0, oc.width, oc.height);
+//          document.getElementById('great-image').src = oc.toDataURL();
+            $('.image-holder img').attr('src', oc.toDataURL());
+            $('.chose-file>.image-holder>img').attr('src', oc.toDataURL());
+            $('.boat-view-container .starboard .user-image>img,.boat-view-container .portview .user-image>img').attr('src', oc.toDataURL());
+            $('.print-template-wrapper img.user-image-gen').attr('src', oc.toDataURL());
+
+            $('.rotatedimage').attr('value', oc.toDataURL()); //hidden form
+        }
+      };
+      
+      img.src = event.target.result;
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
 }

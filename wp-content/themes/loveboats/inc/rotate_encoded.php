@@ -14,7 +14,7 @@ function encoded_image() {
     file_put_contents( $file, base64_decode( $filteredData ) );
 
     
-    $source = imagecreatefromjpeg($file);
+    $source = imagecreatefrompng($file);
     // Rotate
     $rotate = imagerotate($source, -90, 0);
     $rotate2 = imagerotate($source, 90, 0);
@@ -36,3 +36,4 @@ function encoded_image() {
 
 add_action('wp_ajax_encoded_image', 'encoded_image');
 add_action('wp_ajax_nopriv_encoded_image', 'encoded_image');
+

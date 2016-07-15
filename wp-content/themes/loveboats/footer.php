@@ -15,10 +15,15 @@
 	</div>
 	
 	</div>
-	
-	<div hidden class="print-template-wrapper" style="z-index: -1; width: 1290px; height: 925px;">
+        <style type="text/css">
+            body, .mbg {
+/*                overflow-x: visible !important;
+                overflow: visible !Important;*/
+            }
+        </style>
+	<div class="print-template-wrapper" style="z-index: -1; width: 1290px; height: 925px; display: inline-block;  overflow: visible !important;  ">
             
-            <div id="template-r" class="second-page template-a" style="width: 1290px; height: 925px;">
+            <div id="template-r" class="second-page template-a" style="width: 1290px;height: 925px;display: inline-block; overflow: visible !important;">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/template-layers/template-page-second-base.png" class="base" />
 
                 <div class="user-image-container">
@@ -60,5 +65,6 @@
         <div class="spinner-wrap">
             <div class="spinner"></div>
         </div>
+        
   </body>
 </html>
