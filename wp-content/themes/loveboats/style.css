@@ -60,3 +60,6 @@ Text Domain: loveboats
 .intro button.createaboat::after {
     border-left: 30px solid #f0659e;
 }*/
+.gallery .slide-element h3 span {
+    display: block;
+}
