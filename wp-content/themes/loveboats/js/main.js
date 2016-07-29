@@ -1,10 +1,10 @@
 var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
-//        
-//    $('body').css({
-//        'max-width' : $( window ).width() + 'px'
-//    });
+        
+    $('body').css({
+        'max-width' : $( window ).width() + 'px'
+    });
     
     $(".file-selector").on('change',function(){
         readURL(this);
@@ -285,6 +285,13 @@ $(document).ready(function() {
 	
 	
 	
+});
+
+
+$(window).resize(function(){
+    $('body').css({
+        'max-width' : $( window ).width() + 'px'
+    });
 });
 
 
