@@ -1,8 +1,8 @@
 var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
-        
-    $('body').css({
+        //1290
+    $('.print-template-wrapper').css({
         'max-width' : $( window ).width() + 'px',
         'overflow' : 'hidden',
         'display' : 'inline-block'
@@ -291,7 +291,7 @@ $(document).ready(function() {
 
 
 $(window).resize(function(){
-    $('body').css({
+    $('.print-template-wrapper').css({
         'width' : $( window ).width() + 'px',
         'overflow' : 'hidden',
         'display' : 'inline-block'
