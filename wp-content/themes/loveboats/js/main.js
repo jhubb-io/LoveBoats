@@ -1,11 +1,6 @@
 var $ = jQuery.noConflict();
 $(document).ready(function() {
-	
-        //1290
-    $('.print-template-wrapper').css({
-        "left" : '-999999px'
-    });
-    
+
     $(".file-selector").on('change',function(){
         readURL(this);
     });
@@ -26,9 +21,7 @@ $(document).ready(function() {
         var message = $('.enter-message').val();
         $('.template-text-left,.template-text-right, .boat-view-container .starboard  p, .boat-view-container .portview p').text( message );
         $('body.home, .mbg').css({'overflow-x':'visible'});
-        $('.print-template-wrapper').css({
-            "left" : '0'
-        });
+       
         $('.second-page').html2canvas({
             width: 1290,
             height: 940,
@@ -49,9 +42,7 @@ $(document).ready(function() {
             }
         });
         $('body.home, .mbg').css({'overflow-x':'hidden'});
-        $('.print-template-wrapper').css({
-            "left" : '-99999px'
-        });
+        
     });
     /*lori*/
 	$('header .logo').on('click', function(){
