@@ -2,9 +2,10 @@ var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
         
-    $('body,html').css({
+    $('body').css({
         'max-width' : $( window ).width() + 'px',
-        'overflow' : 'hidden'
+        'overflow' : 'hidden',
+        'display' : 'inline-block'
     });
     
     $(".file-selector").on('change',function(){
@@ -290,9 +291,10 @@ $(document).ready(function() {
 
 
 $(window).resize(function(){
-    $('body,html').css({
+    $('body').css({
         'width' : $( window ).width() + 'px',
-        'overflow' : 'hidden'
+        'overflow' : 'hidden',
+        'display' : 'inline-block'
     });
 });
 
