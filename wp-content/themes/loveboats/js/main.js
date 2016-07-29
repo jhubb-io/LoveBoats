@@ -2,8 +2,9 @@ var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
         
-    $('body').css({
-        'max-width' : $( window ).width() + 'px'
+    $('body,html').css({
+        'max-width' : $( window ).width() + 'px',
+        'overflow' : 'hidden'
     });
     
     $(".file-selector").on('change',function(){
@@ -289,8 +290,9 @@ $(document).ready(function() {
 
 
 $(window).resize(function(){
-    $('body').css({
-        'max-width' : $( window ).width() + 'px'
+    $('body,html').css({
+        'width' : $( window ).width() + 'px',
+        'overflow' : 'hidden'
     });
 });
 
