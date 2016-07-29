@@ -3,7 +3,7 @@ $(document).ready(function() {
 	
         
     $('body').css({
-        'max-width' : $( window ).width() + 'px'
+        'width' : $( window ).width() + 'px'
     });
     
     $(".file-selector").on('change',function(){
