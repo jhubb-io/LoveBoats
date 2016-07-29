@@ -2950,7 +2950,7 @@ input.template-variant{
     display: block;
     margin: 0 auto;
    
-    position: relative;
+    position: absolute;
     top: 0px;
 	left:0px;
     /*width: 842px;*/

@@ -2,13 +2,8 @@ var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
         //1290
-    $('.print-template-wrapper, .print-template-wrapper .second-page').css({
-        'width' : '90px',
-        'max-width' : '90px',
-        'overflow-x' : 'hidden',
-        'overflow' : 'hidden',
-        'display' : 'inline-block',
-        'height' : '10px'
+    $('.print-template-wrapper').css({
+        "left" : '-999999px'
     });
     
     $(".file-selector").on('change',function(){
@@ -292,17 +287,6 @@ $(document).ready(function() {
 	
 });
 
-
-$(window).resize(function(){
-    $('.print-template-wrapper, .print-template-wrapper .second-page').css({
-        'width' : '90px',
-        'max-width' : '90px',
-        'overflow-x' : 'hidden',
-        'overflow' : 'hidden',
-        'display' : 'inline-block',
-        'height' : '10px'
-    });
-});
 
 
 $(window).ready(function() {
