@@ -1,10 +1,10 @@
 var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
-        
-    $('body').css({
-        'max-width' : $( window ).width() + 'px'
-    });
+//        
+//    $('body').css({
+//        'max-width' : $( window ).width() + 'px'
+//    });
     
     $(".file-selector").on('change',function(){
         readURL(this);
@@ -415,7 +415,6 @@ function updateCountdown() {
         var remaining = 140 - $('.enter-message').val().length;
         $('.countdown').text(remaining + ' characters remaining.');
     }
-    
 }
 
 
