@@ -3,9 +3,12 @@ $(document).ready(function() {
 	
         //1290
     $('.print-template-wrapper, .print-template-wrapper .second-page').css({
-        'max-width' : $( window ).width() + 'px',
+        'width' : '90px',
+        'max-width' : '90px',
+        'overflow-x' : 'hidden',
         'overflow' : 'hidden',
-        'display' : 'inline-block'
+        'display' : 'inline-block',
+        'height' : '10px'
     });
     
     $(".file-selector").on('change',function(){
@@ -292,9 +295,12 @@ $(document).ready(function() {
 
 $(window).resize(function(){
     $('.print-template-wrapper, .print-template-wrapper .second-page').css({
-        'width' : $( window ).width() + 'px',
+        'width' : '90px',
+        'max-width' : '90px',
+        'overflow-x' : 'hidden',
         'overflow' : 'hidden',
-        'display' : 'inline-block'
+        'display' : 'inline-block',
+        'height' : '10px'
     });
 });
 
