@@ -2,7 +2,7 @@ var $ = jQuery.noConflict();
 $(document).ready(function() {
 	
         //1290
-    $('.print-template-wrapper').css({
+    $('.print-template-wrapper, .print-template-wrapper .second-page').css({
         'max-width' : $( window ).width() + 'px',
         'overflow' : 'hidden',
         'display' : 'inline-block'
@@ -291,7 +291,7 @@ $(document).ready(function() {
 
 
 $(window).resize(function(){
-    $('.print-template-wrapper').css({
+    $('.print-template-wrapper, .print-template-wrapper .second-page').css({
         'width' : $( window ).width() + 'px',
         'overflow' : 'hidden',
         'display' : 'inline-block'
