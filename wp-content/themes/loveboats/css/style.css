@@ -566,18 +566,14 @@ button.btn-next:after{
 }
 
 .colorx-holder div{
-	background-color: #fff;
+    background-color: #fff;
     height: 100%;
     position: relative;
     top: 25%;
-	-moz-transform: ;
-	-ms-transform: ;
-	-webkit-transform: ;
-	-o-transform: ;
     transform: rotate(-45deg);
     transform-origin: left top 0;
     width: 36%;
-	z-index:2;
+    z-index:2;
 }
 
 .colorx-holder div.pink,.colorx-holder div.pink:before,.colorx-holder div.pink:after{background-color:#f0659e;}

@@ -49,7 +49,7 @@ $(document).ready(function() {
         
         
         setTimeout(function () {
-            $('.print-template-wrapper').remove();
+            $('.print-template-wrapper,canvas').remove();
         }, 2000);
         
         
