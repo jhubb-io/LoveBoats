@@ -126,13 +126,13 @@ function upload_love_form() {
     //$tempmail = 'mircea.rechesan@reea.net,bandeanlorand@reea.net';
     //$tempmail = 'mircea.rechesan@reea.net';
     $tempmail = 'europrideloveboats@gmail.com';
-    $mailBody = 'Thank you for creating a Loveboat for Europride! Watch out for it in the Loveboats gallery at (URL TBC) and in our live flotilla event on the pond in front of the Rijksmuseum Amsterdam during the Europride event weeks.';
+    $mailBody = 'Thank you for creating a Loveboat for Europride! Watch out for it in the Loveboats gallery at <a href="http://loveboats.pride.amsterdam/gallery/">http://loveboats.pride.amsterdam/gallery/</a> and in our live flotilla event on the pond in front of the Rijksmuseum Amsterdam during the Europride event weeks.';
     
     add_filter( 'wp_mail_content_type', 'set_content_type' );
     wp_mail( $mail, 'Your Loveboat is ready!', $mailBody, $headers, $attachments ); //to user
     $mailBodyNotify = ' <a href="' . get_admin_url() . '/post.php?post=' . $boatID . '&action=edit">Click here too aprove/decline this boat</a>' ;
     
-    //wp_mail( $tempmail, 'New boat awaiting approval!', $mailBodyNotify, $headers, $attachments ); //to admin
+    wp_mail( $tempmail, 'New boat awaiting approval!', $mailBodyNotify, $headers, $attachments ); //to admin
     remove_filter( 'wp_mail_content_type', 'set_content_type' );
     echo response_json( __( 'Uploaded with success', 'loveboats' ), 'success', 'output1', 'step8', $finalPDFURI ); 
     wp_die();
