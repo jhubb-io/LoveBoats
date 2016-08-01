@@ -15,15 +15,10 @@
 	</div>
 	
 	</div>
-        <style type="text/css">
-            body, .mbg {
-/*                overflow-x: visible !important;
-                overflow: visible !Important;*/
-            }
-        </style>
-	<div class="print-template-wrapper" style="z-index: -1; width: 1290px; height: 925px; display: inline-block;  overflow: visible !important;  ">
+        
+	<div class="print-template-wrapper" style="z-index: -1; width: 90px; height: 90px; display: inline-block; ">
             
-            <div id="template-r" class="second-page template-a" style="width: 1290px;height: 925px;display: inline-block; overflow: visible !important;">
+            <div id="template-r" class="second-page template-a" style="width: 1290px;height: 925px;display: inline-block; ">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/template-layers/template-page-second-base.png" class="base" />
 
                 <div class="user-image-container">
