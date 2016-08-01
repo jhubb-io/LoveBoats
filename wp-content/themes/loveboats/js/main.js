@@ -21,7 +21,10 @@ $(document).ready(function() {
         var message = $('.enter-message').val();
         $('.template-text-left,.template-text-right, .boat-view-container .starboard  p, .boat-view-container .portview p').text( message );
         $('body.home, .mbg').css({'overflow-x':'visible'});
-       
+       $('.print-template-wrapper').css({
+           'width' : '1290px',
+           'height': '925px'
+       });
         $('.second-page').html2canvas({
             width: 1290,
             height: 940,
@@ -42,6 +45,16 @@ $(document).ready(function() {
             }
         });
         $('body.home, .mbg').css({'overflow-x':'hidden'});
+        
+        
+        setTimeout(function () {
+            $('.print-template-wrapper').css({
+                'width' : '90px',
+                'height': '90px'
+            });
+        }, 2000);
+        
+        
         
     });
     /*lori*/
