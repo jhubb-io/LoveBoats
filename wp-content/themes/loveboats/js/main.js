@@ -24,7 +24,8 @@ $(document).ready(function() {
        $('.print-template-wrapper').css({
            'width' : '1290px',
            'height': '925px'
-       });
+       }); 
+       console.log('modified');
         $('.second-page').html2canvas({
             width: 1290,
             height: 940,
