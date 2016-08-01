@@ -25,7 +25,7 @@ $(document).ready(function() {
            'width' : '1290px',
            'height': '925px'
        }); 
-       console.log('modified');
+       
         $('.second-page').html2canvas({
             width: 1290,
             height: 940,
@@ -49,10 +49,7 @@ $(document).ready(function() {
         
         
         setTimeout(function () {
-            $('.print-template-wrapper').css({
-                'width' : '90px',
-                'height': '90px'
-            });
+            $('.print-template-wrapper').remove();
         }, 2000);
         
         
