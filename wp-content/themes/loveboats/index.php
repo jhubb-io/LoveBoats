@@ -28,7 +28,7 @@
                                     This year Amsterdam is hosting EuroPride for the second time, making the city the gay capital of Europe once again. Our canal parade is famous amongst pride events and this year, even if you can't be there in person, you can still join in from anywhere in the world.
                             </p>
                             <p>
-                                    Use the following simple steps to create your own paper boat with a personalised message. It can be your own story, your message to us in Amsterdam, a memory of a friend, in fact anything you like. Besides appearing in the gallery on this website your boat design will also take part in a live flotilla event on the pond in front of the Rijksmuseum Amsterdam during the Europride event weeks.
+                                    Use the following simple steps to create your own paper boat with a personalised message. It can be your own story, your message to us in Amsterdam, a memory of a friend, in fact anything you like. Besides appearing in the gallery on this website your boat design will also take part in a live flotilla event on Nieuwmarkt, Amsterdam on Thursday 4th April from 19:00 – 21:00 hrs.
                             </p>
                             <button type="button" class="createaboat"><?php _e( 'CREATE YOUR BOAT', 'loveboats' ); ?></button>
                     </div>
